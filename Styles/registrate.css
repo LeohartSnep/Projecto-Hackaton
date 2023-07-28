@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+header .color-header{
+    
+}
+
+.titulo h1{
+    color:#317A38;
+    padding-left: 300px;
+
+}
+
+.imagen-1{
+    height: 45px;
+    padding-left: 350px;
+}
+
+.imagen-2{
+    height: 50px;
+    padding-left: 300px;
+
+}
+
+.imagen-3{
+    height: 50px;
+    padding
+
+}
+
+h3{
+    padding-left: 300px;
+}
+
+h4{
+    padding-left: 300px;
+}
+
+.uno{
+    color: #317A38;
+}
+
+.tres{
+    color: #317A38;
+}
+
+.button-registrate{
+    padding: 10px;
+}
+
+/* Estilos para el formulario */
+#formulario {
+    background-color: #317A38; /* Fondo negro para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Colocamos los elementos en una columna */
+    align-items: flex-start; /* Alineamos el formulario a la izquierda */
+    max-width: 400px;
+}
+
+/* Estilos para las etiquetas del formulario */
+#formulario label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilos para los campos de entrada del formulario */
+#formulario input[type="text"],
+#formulario input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: grey; /* Color de fondo negro para las casillas */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilos para el botón "Enviar" */
+#formulario input[type="submit"] {
+    background-color: black; /* Fondo negro para el botón */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover {
+    background-color: #333; /* Cambio de color al pasar el mouse sobre el botón */

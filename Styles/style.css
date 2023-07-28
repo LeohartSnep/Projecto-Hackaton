@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+}
+
+header .color-header{
+    font-family: raleway bold-espaciado 340;
+    background-color: #317A38;
+    height: 48px;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+nav a{
+    padding-left: 12px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: #535c62;
+}
+
+nav a:hover{
+    background-color: #ABEBC6;
+    border-radius: 12px;
+    padding-left: 1.8px;
+    padding-right: 1.8px;
+    margin: 1.8px;
+    transition: 0.8s;
+}
+
+#descripcion{
+    padding-top: 2px;
+    padding-left: 35px;
+
+}
+
+#descripcion h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #317A38;
+    font-size: 38px;
+}
+
+#descripcion h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #535c62;
+}
+
+.texto-descripcion{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    width: 43%;
+}
+
+.button-quienes-somos{
+    font-weight: 550;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #317A38;
+    color: white;
+    cursor: pointer;
+}
+
+.button-quienes-somos:hover{
+    background-color: #229954;
+}
+
+footer{
+    background-color: #317A38;
+    padding-bottom: 40px;
+    padding-left: 75%;
+    display: flex;  
+}
+
+.redes-sociales{
+    font-size: 30px;
+    padding-top: 18px;
+}
+
+footer p{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.redes-sociales .fc{
+    background-color: white;
+    border-radius: 21px;
+    padding: 2.5px;
+    color: blue;
+}
+
+.redes-sociales .wsp{
+    background-color: white;
+    border-radius: 21px;
+    padding: 2.5px;
+    color: #1E8449;
+}
+
+.redes-sociales .ig{
+    background-color: white;
+    border-radius: 21px;
+    padding: 2.5px;
+    color: #7D3C98;
+}
+
+.redes-sociales .tw{
+    background-color: white;
+    border-radius: 21px;
+    padding: 2.5px;
+    color: #2E86C1;
+    cursor: pointer;
+}
+
+.redes-sociales :hover{
+    transition: 0.6s;
+    padding-top: -5px;
+}
+
+.redes-sociales .fc:hover{
+    background-color: #B2BABB;
+    color: blue;
+}
+
+.redes-sociales .wsp:hover{
+    background-color: #B2BABB;
+    color: #1E8449;
+}
+
+.redes-sociales .ig:hover{
+    background-color: #B2BABB;
+    color: #7D3C98;
+}
+
+.redes-sociales .tw:hover{
+    background-color: #B2BABB;
+    color: #2E86C1;
+}
+
+/*Pagina quienes somos, diseños*/
+
+.button-estaciones{
+    font-weight: 550;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #317A38;
+    color: white;
+    cursor: pointer;
+}
+
+.button-estaciones:hover{
+    background-color: #229954;
+}
+
+/*Pagina estaciones, diseño*/
+
+.map{
+    border-style: none;
+}
+
+.button-registrate{
+    font-weight: 550;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #317A38;
+    color: white;
+    cursor: pointer;
+}
+
+.button-registrate:hover{
+    background-color: #229954;
+}
+
+.logo-ba{
+    height: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.ba-ciudad{
+    height: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: white;
+}
+
+.bicicenda{
+    height: 450px;
+    padding-left: 900px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
